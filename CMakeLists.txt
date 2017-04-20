@@ -40,8 +40,8 @@ set(minimum_required_qt4_version "4.6.2")
 set(minimum_required_qt_version ${minimum_required_qt${PythonQt_QT_VERSION}_version})
 
 # Qt components
-set(qt5libs Core Widgets Network OpenGL Sql Svg UiTools WebKitWidgets Xml XmlPatterns)
-set(qt4libs core gui network opengl sql svg uitools webkit xml xmlpatterns)
+set(qt5libs Core Widgets Network OpenGL Sql Svg UiTools Xml XmlPatterns)
+set(qt4libs core gui network opengl sql svg uitools xml xmlpatterns)
 set(qtlibs ${qt${PythonQt_QT_VERSION}libs})
   
 # Webkit need to be removed Qt >= 5.6
