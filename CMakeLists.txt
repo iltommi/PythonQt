@@ -57,6 +57,8 @@ include_directories("${PYTHON_INCLUDE_DIR}")
 add_definitions(
   -DPYTHONQT_USE_RELEASE_PYTHON_FALLBACK
   -DPYTHONQT_SUPPORT_NAME_PROPERTY
+  -DNT_THREADS 
+  -Wa,-mbig-obj
   )
 
 #-----------------------------------------------------------------------------
